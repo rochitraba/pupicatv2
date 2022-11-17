@@ -118,7 +118,7 @@ input {
 }
 
 :focus {
-  outline-offset: 4px;
+  outline-offset: 5px;
 }
 
 ul {
@@ -1122,7 +1122,7 @@ form {
   transition: 0.3s;
 }
 
-textarea.input {
+.textarea .input {
   padding: 0.8rem 1.2rem;
   min-height: 150px;
   border-radius: 22px;
@@ -1173,7 +1173,7 @@ textarea.input {
   top: 0;
   left: 25px;
   transform: translateY(-50%);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 0 0.4rem;
   color: transparent;
   pointer-events: none;
@@ -1205,7 +1205,7 @@ textarea.input {
   top: 0;
   transform: translateY(-50%);
   left: 25px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .input-container.focus span:before,
